@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 
-const RUNAWAY_PHRASE_INDEX = 12; // "You can't say no to me!"
+const RUNAWAY_PHRASE_INDEX = 11; // "You can't say no to me!"
 const MOUSE_THRESHOLD = 120;
 const MOVE_SPEED = 24;
 
@@ -66,14 +66,13 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
+      "Think again <3",
       "Pretty please?",
-      "With a box of motichoor ladoo and rasmalai?",
-      "What about a tahini's shawarma wrap?",
+      "With a big bag of Protein?",
+      "What about lots of kissies?",
       "PLEASE POOKIE",
-      "Say yes to your hubby!!??",
-      "How about a big diamond ring?",
-      "Please babyyyy",
+      "Say yes to your babyyyy!!??"
+      "I really like you :') ",
       ":((((",
       "Last chance to say yes!",
       "You can't say no to me!",
@@ -88,7 +87,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="my-4 text-4xl font-bold">
-            WOOOOOO!!! I love you pookie!! ;))
+            WOOOOOO!!! I love you my pookie bear!! ;))
           </div>
         </>
       ) : (
@@ -97,7 +96,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Asif, Will You be my Boyfriend?</h1>?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
